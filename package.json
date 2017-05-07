@@ -6,11 +6,6 @@
   "engines": {
   "node": "6.10.3"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "Grunt",
-    "start": "node server/app.js"
-  },
   "author": "Ryan Brunt",
   "license": "ISC",
   "dependencies": {
@@ -24,5 +19,10 @@
     "jquery": "^2.1.4",
     "moment": "^2.10.6",
     "path": "^0.11.14"
+  },
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "grunt",
+    "start": "node server/app.js"
   }
 }
