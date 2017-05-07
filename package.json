@@ -5,7 +5,8 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "grunt && node server/app.js"
+    "postinstall": "grunt",
+    "start": "node server/app.js"
   },
   "author": "Ryan Brunt",
   "license": "ISC",
