@@ -4,7 +4,7 @@
 //  clientSecret: 'IOzbAkwpTT-8f2N1xdcD0Q7U',
 //  calendarId: 'tptsquatter@gmail.com',
 //  redirectURL: 'http://localhost:3000/auth'
-// };
+//  };
 
 // use this block for heroku app
 var googleConfig = {
