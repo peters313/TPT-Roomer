@@ -1,18 +1,18 @@
 // use this block for development
-var googleConfig = {
-    clientID: '270120115745-e2n1h3h8aufb1brf05hbin6r54orduop.apps.googleusercontent.com',
-    clientSecret: 'uwWUU7VuuVSxZwZ5GT132DHv',
-    calendarId: 'tptsquatter@gmail.com',
-    redirectURL: 'http://localhost:3000/auth'
-};
+// var googleConfig = {
+//     clientID: '718685232216-44kv60mjc1p2jqsgjm9t3uerjnivck7q.apps.googleusercontent.com',
+//     clientSecret: 'IOzbAkwpTT-8f2N1xdcD0Q7U',
+//     calendarId: 'tptsquatter@gmail.com',
+//     redirectURL: 'http://localhost:3000/auth'
+// };
 
 // use this block for heroku app
-/*var googleConfig = {
-    clientID: '721997656029-ltfbn93eoag67dtfd2vmpok1pgpqltnd.apps.googleusercontent.com',
-    clientSecret: 'tU-MvIgxQskkYgXJ89uoko-v',
-    calendarId: 'tpt.roomer@gmail.com',
-    redirectURL: 'https://tpt-demo.herokuapp.com/auth'
-};*/
+var googleConfig = {
+    clientID: '718685232216-44kv60mjc1p2jqsgjm9t3uerjnivck7q.apps.googleusercontent.com',
+    clientSecret: 'IOzbAkwpTT-8f2N1xdcD0Q7U',
+    calendarId: 'tptsquatter@gmail.com',
+    redirectURL: 'https://tpt-tptsquatter-gamma.herokuapp.com/'
+};
 
 var express = require('express');
 var moment = require('moment');
