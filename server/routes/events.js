@@ -2,7 +2,7 @@
 var googleConfig = {
     clientID: '270120115745-e2n1h3h8aufb1brf05hbin6r54orduop.apps.googleusercontent.com',
     clientSecret: 'uwWUU7VuuVSxZwZ5GT132DHv',
-    calendarId: 'tpt.roomer@gmail.com',
+    calendarId: 'tptsquatter@gmail.com',
     redirectURL: 'http://localhost:3000/auth'
 };
 
