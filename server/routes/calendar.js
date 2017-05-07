@@ -11,7 +11,7 @@ var googleConfig = {
     clientID: '718685232216-44kv60mjc1p2jqsgjm9t3uerjnivck7q.apps.googleusercontent.com',
     clientSecret: 'IOzbAkwpTT-8f2N1xdcD0Q7U',
     calendarId: 'tptsquatter@gmail.com',
-    redirectURL: 'https://tpt-tptsquatter-gamma.herokuapp.com/'
+    redirectURL: 'https://tpt-tptsquatter-gamma.herokuapp.com/auth'
 };
 
 var express = require('express');
